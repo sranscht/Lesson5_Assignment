@@ -1,4 +1,4 @@
-dd// Program Name:Seminole Trojans
+// Program Name:Seminole Trojans
 // Program topics: Variables,Functions,Arrays
 // Author: Sam Ranscht
 // Date:October 8th, 2015
@@ -56,7 +56,7 @@ var tableCell = document.getElementById("08-" + date);
 paragraphs = tableCell.getElementsByTagName("p");
 paragraphs[1].innerHTML += opponents[i];
 
-  if (gameLocation[i] === "away") {,
+  if (gameLocation[i] === "away") {
   paragraphs[1].innerHTML = "@ ";
     paragraphs[1].innerHTML += opponents[i];
   }//end of if 
